@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "components/Page";
-import Button from "components/core/Button";
+import Login from "components/Login";
 
 /*
 	Home page
@@ -15,10 +15,7 @@ const Home = (): JSX.Element => {
 			active={0}
 		>
 			<>
-				<h1>Hello from Salama !</h1>
-				<Button>
-					Click me
-				</Button>
+				<Login />
 			</>
 		</Page>
 	);

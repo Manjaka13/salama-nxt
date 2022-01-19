@@ -30,3 +30,8 @@
 }
 
 @include btn-generate;
+
+.btn--disabled {
+	pointer-events: none;
+	color: rgb(170, 170, 170);
+}

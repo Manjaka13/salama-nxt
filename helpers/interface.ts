@@ -29,6 +29,7 @@ export interface IHeadingProps {
 // Button props
 export interface IButtonProps {
 	title?: string;
+	className?: string;
 	children?: JSX.Element | string;
 	atClick?: () => null;
 	color?: string;

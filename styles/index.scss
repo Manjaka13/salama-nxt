@@ -2,8 +2,43 @@
 	Import necessary styles here
 */
 
+@mixin screen-x($size) {
+	@media only screen and (max-width: $size) {
+		@content;
+	}
+}
+
+@mixin screen-y($size) {
+	@media only screen and (max-height: $size) {
+		@content;
+	}
+}
+
+#__next,
+main {
+	height: 100%;
+}
+
 // FastUI library for faster prototyping
-@import "styles/fastui.css";
+@import "./fastui.css";
+
+p,
+a,
+li,
+button,
+input,
+textarea,
+label {
+	font-size: 15pt;
+	color: rgb(100, 100, 100);
+}
+
+* {
+	font-family: sans-serif;
+}
 
 // Import core UI styles
-@import "styles/core/index.scss";
+@import "./core/index.scss";
+
+// Import component styles
+@import "./Login.scss";
