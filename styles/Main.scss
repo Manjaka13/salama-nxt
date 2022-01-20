@@ -1,4 +1,4 @@
-$user-heading-height: 76px;
+$talk-heading-height: 76px;
 
 .main-page {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -20,7 +20,7 @@ $user-heading-height: 76px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 	
 	.user-heading {
-		height: $user-heading-height;
+		height: $talk-heading-height;
 		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 		&__avatar {
 			&:hover {
@@ -45,31 +45,6 @@ $user-heading-height: 76px;
 			background: $color-theme;
 			color: white;
 			font-size: 0.7rem;
-		}
-	}
-
-	&__body {
-		height: calc(100% - $user-heading-height);
-		.contact {
-			transition: background 0.2s ease-out;
-			&:hover {
-				background: darken(whitesmoke, 3%);
-				box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-			}
-			&:active {
-				background: darken(whitesmoke, 15%);
-				box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-			}
-		}
-		.content {
-			.message {
-				white-space: nowrap;
-				overflow: hidden;
-				text-overflow: ellipsis;
-			}
-		}
-		.date {
-			flex: 1;
 		}
 	}
 }
