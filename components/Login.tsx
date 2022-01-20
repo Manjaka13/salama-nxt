@@ -32,7 +32,7 @@ const Login = (): JSX.Element => {
 
 	return (
 		<div className="login ctn h-100 f-row-center-center">
-			<div className="login__window w-70 w-xlg-90 w-md-100 h-50 h-xlg-70 h-md-100 bg-white o-hidden">
+			<div className="login__window w-70 w-xlg-90 w-md-100 h-60 h-xlg-70 h-md-100 bg-white o-hidden">
 				<div className="login__head f-row-between-center h-10 o-hidden">
 					<h1 className="pd-left-20">
 						<Icon icon={['fas', 'handshake']} /> Salama namana !
