@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "components/Button";
+import { SOCIAL } from "helpers/const";
 import { v4 as uuidv4 } from "uuid";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
@@ -8,8 +10,6 @@ import {
 	faLinkedin,
 	faGithub
 } from "@fortawesome/free-brands-svg-icons";
-import { SOCIAL } from "helpers/const";
-import Button from "components/core/Button";
 
 library.add(
 	faHandshake,

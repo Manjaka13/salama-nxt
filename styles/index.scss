@@ -21,6 +21,9 @@ main {
 
 // FastUI library for faster prototyping
 @import "./fastui.css";
+// Import core UI styles
+@import "./vars.scss";
+@import "./Button.scss";
 
 p,
 a,
@@ -29,16 +32,13 @@ button,
 input,
 textarea,
 label {
-	font-size: 15pt;
+	font-size: $font-size;
 	color: rgb(100, 100, 100);
 }
 
 * {
-	font-family: sans-serif;
+	font-family: $font-family;
 }
-
-// Import core UI styles
-@import "./core/index.scss";
 
 // Import component styles
 @import "./Login.scss";

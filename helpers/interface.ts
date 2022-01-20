@@ -33,6 +33,8 @@ export interface IButtonProps {
 	children?: JSX.Element | string;
 	atClick?: () => null;
 	color?: string;
+	disabled?: boolean;
+	alt?: boolean;
 }
 
 // Book interface
