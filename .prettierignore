@@ -16,7 +16,6 @@ yarn-error.log*
 .env.production.local
 .vercel
 tsconfig.tsbuildinfo
-*.md
 *.db
 package-lock.json
 yarn.lock
