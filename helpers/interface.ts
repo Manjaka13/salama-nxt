@@ -5,13 +5,11 @@
 // import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
 
-// App props
 export interface ISalamaProps {
 	Component: React.ComponentClass;
 	pageProps?: Record<string, unknown>;
 }
 
-// Page component props
 export interface IPageProps {
 	title?: string;
 	image?: string;
@@ -20,21 +18,18 @@ export interface IPageProps {
 	active?: number;
 }
 
-// Heading component props
 export interface IHeadingProps {
 	title?: string;
 	image?: string;
 	children?: string;
 }
 
-// Social data
 export interface ISocial {
 	icon: IconName;
 	title: string;
 	link: string;
 }
 
-// Button props
 export interface IButtonProps {
 	title?: string;
 	className?: string;
@@ -45,9 +40,16 @@ export interface IButtonProps {
 	alt?: boolean;
 }
 
-// Badge
 export interface IBadgeProps {
 	content: number;
+}
+
+export interface ITalkItem {
+	name: string;
+	avatar: string;
+	lastMessage: string;
+	date: string;
+	read: boolean;
 }
 
 // Book interface

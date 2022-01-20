@@ -1,0 +1,27 @@
+/*
+	TalkItem styles
+*/
+
+.talk-item {
+	transition: background 0.2s ease-out;
+	
+	&:hover {
+		background: darken(whitesmoke, 3%);
+		box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+	}
+
+	&:active {
+		background: darken(whitesmoke, 15%);
+		box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+	}
+
+	&__message {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	&__date {
+		flex: 1;
+	}
+}

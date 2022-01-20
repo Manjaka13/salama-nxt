@@ -4,26 +4,4 @@
 
 .talk-list {
 	height: calc(100% - $talk-heading-height);
-	
-	.contact {
-		transition: background 0.2s ease-out;
-		&:hover {
-			background: darken(whitesmoke, 3%);
-			box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-		}
-		&:active {
-			background: darken(whitesmoke, 15%);
-			box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-		}
-	}
-	
-	.message {
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-
-	.date {
-		flex: 1;
-	}
 }
