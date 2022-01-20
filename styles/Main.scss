@@ -1,0 +1,94 @@
+$user-heading-height: 76px;
+
+.main-page {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	width: 1400px;
+	margin: auto;
+
+	@include screen-x(1700px) {
+		width: 100%;
+	}
+
+	// @include responsive(1400px) {
+	// 	width: 90%;
+	// }
+}
+
+.contact-list {
+	position: relative;
+	background: rgb(250, 250, 250);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	
+	.user-heading {
+		height: $user-heading-height;
+		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+		&__avatar {
+			&:hover {
+				background: darken(whitesmoke, 10%);
+			}
+			&:active {
+				background: darken(whitesmoke, 20%);
+			}
+		}
+	}
+
+	.unread {
+		position: relative;
+		color: $color-theme;
+		border: 2px $color-theme solid;
+		&:hover {
+			background: $color-theme;
+			color: white;
+			font-size: 1.5rem;
+		}
+		&:active {
+			background: $color-theme;
+			color: white;
+			font-size: 0.7rem;
+		}
+	}
+
+	.bagde {
+		position: absolute;
+		bottom: -7px;
+		right: -7px;
+		border: 2px white solid;
+		background: $color-theme;
+		font-size: 0.8rem;
+	}
+
+	&__body {
+		height: calc(100% - $user-heading-height);
+		.contact {
+			transition: background 0.2s ease-out;
+			&:hover {
+				background: darken(whitesmoke, 3%);
+				box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+			}
+			&:active {
+				background: darken(whitesmoke, 15%);
+				box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+			}
+		}
+		.content {
+			.message {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		.date {
+			flex: 1;
+		}
+	}
+}
+
+.message-list {
+	@include screen-x($screen-md) {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+	}
+}

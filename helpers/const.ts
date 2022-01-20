@@ -1,6 +1,8 @@
+import { ISocial } from "helpers/interface";
+
 const PROXY = "api/";
 const APP_NAME = "Salama";
-const SOCIAL = [
+const SOCIAL: Array<ISocial> = [
 	{
 		icon: "facebook",
 		title: "Visiter notre page Facebook",

@@ -1,0 +1,115 @@
+[
+	{
+		"name": "Vi To",
+		"avatar": "/fake avatar/vito.jpg",
+		"content": "Ndao irevy, miomàna fa tonga any za avieo",
+		"date": "10:55",
+		"read": false
+	},
+	{
+		"name": "Leslie Ren",
+		"avatar": "/fake avatar/leslie.jpg",
+		"content": "Oui fatako ka",
+		"date": "11:55",
+		"read": false
+	},
+	{
+		"name": "Princy N.",
+		"avatar": "/fake avatar/princy.jpg",
+		"content": "hehe, c'est bien cousingo !",
+		"date": "Mer. 11:58",
+		"read": true
+	},
+	{
+		"name": "Jordan Rak",
+		"avatar": "/fake avatar/jordan.jpg",
+		"content": "okey",
+		"date": "12:14",
+		"read": false
+	},
+	{
+		"name": "Lanto Rak",
+		"avatar": "/fake avatar/lanto.jpg",
+		"content": "Mety zany e",
+		"date": "12:16",
+		"read": true
+	},
+	{
+		"name": "Mialy Rajaonson",
+		"avatar": "/fake avatar/mialy.jpg",
+		"content": "Ay ve",
+		"date": "Mar. 12:18",
+		"read": true
+	},
+	{
+		"name": "Nancy Erica",
+		"avatar": "/fake avatar/nancy.jpg",
+		"content": "Bisous babe <3",
+		"date": "13:45",
+		"read": false
+	},
+	{
+		"name": "Nico de Gonzague Marley",
+		"avatar": "/fake avatar/nico.jpg",
+		"content": "Lery koa ny tena marina efa tsy mazaka tsony e",
+		"date": "13:55",
+		"read": true
+	},
+
+	{
+		"name": "Vi To",
+		"avatar": "/fake avatar/vito.jpg",
+		"content": "Ndao irevy, miomàna fa tonga any za avieo",
+		"date": "10:55",
+		"read": false
+	},
+	{
+		"name": "Leslie Ren",
+		"avatar": "/fake avatar/leslie.jpg",
+		"content": "Oui fatako ka",
+		"date": "11:55",
+		"read": false
+	},
+	{
+		"name": "Princy N.",
+		"avatar": "/fake avatar/princy.jpg",
+		"content": "hehe, c'est bien cousingo !",
+		"date": "Mer. 11:58",
+		"read": true
+	},
+	{
+		"name": "Jordan Rak",
+		"avatar": "/fake avatar/jordan.jpg",
+		"content": "okey",
+		"date": "12:14",
+		"read": false
+	},
+	{
+		"name": "Lanto Rak",
+		"avatar": "/fake avatar/lanto.jpg",
+		"content": "Mety zany e",
+		"date": "12:16",
+		"read": true
+	},
+	{
+		"name": "Mialy Rajaonson",
+		"avatar": "/fake avatar/mialy.jpg",
+		"content": "Ay ve",
+		"date": "Mar. 12:18",
+		"read": true
+	},
+	{
+		"name": "Nancy Erica",
+		"avatar": "/fake avatar/nancy.jpg",
+		"content": "Bisous babe <3",
+		"date": "13:45",
+		"read": false
+	},
+	{
+		"name": "Nico de Gonzague Marley",
+		"avatar": "/fake avatar/nico.jpg",
+		"content": "Lery koa ny tena marina efa tsy mazaka tsony e",
+		"date": "13:55",
+		"read": true
+	}
+]

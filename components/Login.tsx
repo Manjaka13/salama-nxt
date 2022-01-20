@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "components/Button";
+import { ISocial } from "helpers/interface";
 import { SOCIAL } from "helpers/const";
 import { v4 as uuidv4 } from "uuid";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -19,7 +20,7 @@ library.add(
 );
 
 const Login = (): JSX.Element => {
-	const mappedSocial = SOCIAL.map(social => (
+	const mappedSocial = SOCIAL.map((social: ISocial) => (
 		<a
 			className="login__link fs-200 mg-right-20 tr-200"
 			href={ social.link }
@@ -42,7 +43,7 @@ const Login = (): JSX.Element => {
 				<div className="login__body f-col-center-center h-90">
 					<div>
 					<h2 className="tx-center pd-20 fs-300">Login</h2>
-					<p className="tx-justify pd-20 pd-top-0">Welcome to my instant message platform. I'm trying my best to give you the best app for communicating with your family and friends from anywhere in the world. Stay connected with them anytime with total privacy. See you there !</p>
+					<p className="tx-justify pd-20 pd-top-0">Welcome to my instant message platform. We&apos;re trying my best to give you the best app for communicating with your family and friends from anywhere in the world. Stay connected with them anytime with total privacy. See you there !</p>
 					<form className="w-80 mg-auto f-col-center-initial">
 						<input
 							className="w-100 pd-20 pd-top-10 pd-bottom-10 border-none border mg-bottom-20 bg-whitesmoke"

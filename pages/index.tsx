@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "components/Page";
-import Loading from "components/Loading";
+import Main from "components/Main";
 
 /*
 	Home page
@@ -15,7 +15,7 @@ const Home = (): JSX.Element => {
 			active={0}
 		>
 			<>
-				<Loading />
+				<Main />
 			</>
 		</Page>
 	);

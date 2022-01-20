@@ -3,6 +3,7 @@
 */
 
 // import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { IconName } from "@fortawesome/fontawesome-svg-core";
 
 // App props
 export interface ISalamaProps {
@@ -24,6 +25,13 @@ export interface IHeadingProps {
 	title?: string;
 	image?: string;
 	children?: string;
+}
+
+// Social data
+export interface ISocial {
+	icon: IconName;
+	title: string;
+	link: string;
 }
 
 // Button props

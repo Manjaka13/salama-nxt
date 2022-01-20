@@ -40,6 +40,8 @@ label {
 	font-family: $font-family;
 }
 
+
 // Import component styles
 @import "./Loading.scss";
 @import "./Login.scss";
+@import "./Main.scss";
