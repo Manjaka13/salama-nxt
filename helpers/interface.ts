@@ -45,6 +45,11 @@ export interface IButtonProps {
 	alt?: boolean;
 }
 
+// Badge
+export interface IBadgeProps {
+	content: number;
+}
+
 // Book interface
 export interface IBook {
 	isbn: string;

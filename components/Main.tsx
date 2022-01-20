@@ -1,4 +1,5 @@
 import React from "react";
+import Badge from "components/Badge";
 import { v4 as uuidv4 } from "uuid";
 import messages from "public/message.json";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -54,10 +55,8 @@ const Main = (): JSX.Element => {
 						className="unread w-40px h-40px br-round bg-white f-row-center-center mg-right-10 pointer tr-200"
 						title="Messages non-lus"
 					>
-						<Icon icon={['fas', 'envelope']} />
-						<div className="bagde w-20px h-20px f-row-center-center white br-round pointer-none no-select">
-							4
-						</div>
+						<Icon icon={ ['fas', 'envelope'] } />
+						<Badge content={ 120 } />
 					</div>
 				</div>
 				<div className="contact-list__body o-auto">
